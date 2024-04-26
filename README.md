@@ -1,1 +1,1 @@
-# ESP-32-ethernet-control
+# ESP-32-ethernet-control - модуль с ESP32 управляется через интернет по интерфейсу.
