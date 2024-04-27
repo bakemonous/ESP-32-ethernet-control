@@ -11,7 +11,7 @@ else:
 ssidAP         = 'WiFiName1' #Enter the router name
 passwordAP     = '12345678'  #Enter the router password
 
-local_IP       = '192.168.1.1'
+local_IP       = '192.168.1.10'
 gateway        = '192.168.1.1'
 subnet         = '255.255.255.0'
 dns            = '8.8.8.8'
@@ -29,5 +29,6 @@ def AP_Setup(ssidAP,passwordAP):
 try:
     AP_Setup(ssidAP,passwordAP)
 except:
-    print("Failed, please disconnect the power and restart the operation.")
+    print("Failed, please disconnect the power and restart the operation")
     ap_if.disconnect()
+    
